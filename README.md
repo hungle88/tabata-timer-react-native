@@ -364,31 +364,6 @@ Create `eas.json` for building:
 }
 ```
 
-## Deployment
-
-### Submit to Google Play Store
-1. Build APK: `eas build --platform android`
-2. Sign with keystore
-3. Upload to Google Play Console
-4. Complete store listing details
-5. Submit for review
-
-### Submit to Apple App Store
-1. Requires Apple Developer account ($99/year)
-2. Build IPA: `eas build --platform ios`
-3. Sign with certificates
-4. Upload via Transporter
-5. Complete app information
-6. Submit for review
-
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
 ## Code Style
 
 - Follow React best practices
@@ -399,14 +374,6 @@ Create `eas.json` for building:
 - Use camelCase for variables
 - Use PascalCase for components
 
-## Performance Tips
-
-- Keep re-renders minimal
-- Use React.memo for expensive components
-- Cache computed values with useMemo
-- Debounce input handlers
-- Lazy load components when possible
-- Monitor app performance with React DevTools
 
 ## Resources
 
@@ -415,17 +382,11 @@ Create `eas.json` for building:
 - [Tabata Training Info](https://en.wikipedia.org/wiki/Tabata)
 - [React Hooks Guide](https://react.dev/reference/react/hooks)
 
-## License
-
-This project is open source and available under the MIT License.
 
 ## Author
 
 **Hung Le** - [GitHub Profile](https://github.com/hungle88)
 
-## Support
-
-For support, open an issue in the repository or contact the development team.
 
 ## Related Projects
 
